@@ -128,7 +128,15 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="array_math.c" />
+    <ClCompile Include="grid_search.c" />
     <ClCompile Include="main.c" />
+    <ClCompile Include="test_functions.c" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="array_math.h" />
+    <ClInclude Include="grid_search.h" />
+    <ClInclude Include="test_functions.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
